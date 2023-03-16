@@ -93,12 +93,8 @@ To run tests, run the following command: Not Applicable
 
 website is deployed using Github page:
 here is the link
-https://atifzada.github.io/Portfolio-Project/
+https://atifzada.github.io/Capstone-Project-01/
 
-### Link to Issues
-Below is the link to the issues
-https://github.com/Atifzada/Portfolio-Project/issues
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 👥 Authors <a name="authors"></a>
 
