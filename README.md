@@ -71,7 +71,7 @@ you have to have Code editor and Github account to have the source code
 ### Setup
 
 Clone this repository to your desired folder:
-git clone https://github.com/Atifzada/Portfolio-Project
+git clone https://github.com/Atifzada/Capstone-Project-01
 
 ### Install
 
