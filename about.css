@@ -5,329 +5,449 @@
 }
 
 .about {
-    height: 90vh;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  
-  .aboutHero {
-    height: 100%;
-    background: rgb(236 236 236 / 50%);;
-    gap: 30px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  height: 90vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.aboutHero {
+  height: 100%;
+  background-image: url(/images/home-bg-desk.png);
+  gap: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.aboutTheme {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 10px;
+  padding: 0 0 50px 0;
+}
+
+.introAbout {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--red);
+}
+
+.titleAbout {
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--red);
+  text-align: center;
+}
+
+.aboutText {
+  background-color: #fff;
+  width: 85%;
+  margin: auto;
+  padding: 20px 0;
+}
+
+.aboutDesc {
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 25px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #000;
+}
+
+.aboutDescDt {
+  display: none;
+}
+
+.group_2 {
+  height: 0.01vh;
+}
+
+.aboutContact {
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 25px;
+  color: #7a7a7a;
+  text-align: center;
+  padding: 0 25px;
+}
+
+.aboutEmail {
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 12px;
+  line-height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-decoration-line: underline;
+  color: #5f5f5f;
+}
+
+.logoMain {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  gap: 10px;
+  height: 60vh;
+  background: #fff;
+  border-bottom: 1px solid #e0e2e7;
+}
+
+.logoInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 92%;
+  gap: 20px;
+}
+
+.logoText {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+  gap: 30px;
+}
+
+.logoTitle {
+  text-align: center;
+  width: 65%;
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: -0.02em;
+  color: #2c2c2c;
+}
+
+.emptyDiv3 {
+  border: 1.5px solid var(--red);
+  width: 35px;
+}
+
+.logoDesc {
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: -0.03em;
+  color: #838383;
+}
+
+.logoDescDt {
+  display: none;
+}
+
+.logoImg {
+  width: 90%;
+  margin-top: 30px;
+  padding: 13px 0;
+  border: 1px solid var(--gray);
+}
+
+.previousConcert {
+  padding: 0;
+  gap: 35px;
+  border-top: 1px solid var(--gray);
+  height: 100%;
+}
+
+.prevConcertTop {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.prevConcertTitle {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  color: #2c2c2c;
+}
+
+.emptyDiv4 {
+  border: 1.5px solid var(--red);
+  width: 35px;
+}
+
+.prevConcertDesc {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #838383;
+  padding-bottom: 10px;
+}
+
+.prevImages {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  gap: 25px;
+  margin-bottom: 30px;
+}
+
+.partners {
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0 40px;
+  gap: 10px;
+  background: #414246;
+}
+
+.partnersTop {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.partnerTitle {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  color: #fff;
+}
+
+.partner {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  row-gap: 15px;
+  margin-top: 1.3rem;
+}
+
+.footer {
+  height: 22vh;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logoFooter {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.copyrightFooter {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 13px;
+  color: #3b3e45;
+}
+
+.hamburger {
+  font-size: 2rem;
+  padding-left: 25px;
+  cursor: pointer;
+}
+
+.closeBtn {
+  font-size: 2rem;
+  padding-left: 25px;
+  cursor: pointer;
+  color: var(--red);
+}
+
+.closeBtn:hover {
+  transform: scale(1.2);
+  transition: all 0.7s;
+}
+
+.hamburger:hover {
+  transform: scale(1.2);
+  transition: all 0.7s;
+}
+
+.overlay {
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  background-color: var(--black);
+}
+
+.mobileNavbar {
+  display: flex;
+  justify-content: space-around;
+  column-gap: 20px;
+  font-size: xx-large;
+  width: 95%;
+  position: absolute;
+  top: 70px;
+}
+
+.mobileNavbar ul li a {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 25px;
+  display: flex;
+  align-items: center;
+  color: var(--red);
+  text-decoration: none;
+}
+
+.mobileNavbarItems {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+@media only screen and (min-width: 768px) {
+  .about {
+    height: 100vh;
   }
 
-  .aboutTheme {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    gap: 10px;
-    padding: 0 0 50px 0;
+  .aboutHero {
+    gap: 50px;
+  }
+
+  .titleAbout {
+    font-size: 60px;
   }
 
   .introAbout {
-    font-family: "Lato", sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 25px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: var(--red);
-  }
-  
-  .titleAbout {
-    font-family: "Lato", sans-serif;
-    font-weight: 900;
-    font-size: 30px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: var(--red);
-    text-align: center;
+    display: none;
   }
 
   .aboutText {
-    background-color: #fff;
-    width: 85%;
-    margin: auto;
-    padding: 20px 0px;
+    width: 60%;
+    padding: 30px 10px;
   }
 
   .aboutDesc {
+    display: none;
+  }
+
+  .aboutDescDt {
     font-family: 'Lato', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 25px;    
-    display: flex;
-    align-items: center;
-    text-align: center;
-    /* letter-spacing: -0.06em;  */
-    color: #000000;
-    
-  }
-  .group_2 {
-    height: 0vh;
-  }
-
-  .aboutContact {
-    font-family: 'Lato', sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 12px;
-    line-height: 25px;
-    color: #7A7A7A;
-    text-align: center;
-    padding: 0px 25px;
-  }
-  
-  .aboutEmail {
-    font-family: 'Lato', sans-serif;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 12px;
     line-height: 25px;
     display: flex;
+    padding: 0 15px;
     align-items: center;
-    justify-content: center;
     text-align: center;
-    letter-spacing: 0.02em;
-    text-decoration-line: underline;
-    color: #5F5F5F; 
-  }
-
-  .logoMain {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 0px;
-    gap: 10px;
-    height: 60vh;
-    background: #fff;
-    border-bottom: 1px solid #E0E2E7;
-    
-    
-  }
-
-  .logoInfo {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 92%;
-    gap: 20px;
-  }
-
-  .logoText {
-    display: flex;
-    flex-direction: column;
-    /* justify-content: center; */
-    align-items: center;
-    /* height: 35vh; */
-    padding: 0px;
-    gap: 30px;
-  }
-
-  .logoTitle {
-    text-align: center;
-    width: 65%; 
-    font-family: 'Lato', sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 28px;
-    letter-spacing: -0.02em;
-    color: #2c2c2c;
-  }
-  .emptyDiv3 {
-    border: 1.5px solid var(--red);
-    width: 35px;
+    color: #000;
   }
 
   .logoDesc {
-font-family: 'Lato', sans-serif;
-font-style: normal;
-font-weight: 700;
-font-size: 16px;
-line-height: 21px;
-display: flex;
-align-items: center;
-text-align: center;
-letter-spacing: -0.03em;
-color: #838383;
+    display: none;
   }
 
-  .logoImg {
-    width: 90%;
-    /* height: 141.72px; */
-    margin-top: 30px;
-    padding: 13px 0;
-    border: 1px solid var(--gray);
-  }
-
-  .previousConcert {
-    padding: 0;
-    gap: 35px;
-    border-top: 1px solid var(--gray);
-    height: 100%;
-  }
-  .prevConcertTop {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 0;
-    gap: 10px;
-    margin-top: 20px;
-  }
-  .prevConcertTitle {
-    font-family: "Lato", sans-serif;
+  .logoDescDt {
+    font-family: 'Lato', sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 20px;
-    line-height: 28px;
-    display: flex;
-    align-items: center;
-    color: #2C2C2C;
-  }
-  .emptyDiv4 {
-    border: 1.5px solid var(--red);
-    width: 35px;
-  }
-  .prevConcertDesc {
-    font-family: "Lato", sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 12px;
+    font-size: 16px;
     line-height: 21px;
     display: flex;
     align-items: center;
     text-align: center;
+    letter-spacing: -0.03em;
     color: #838383;
   }
-  .prevImages {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 0;
-    gap: 25px;
-    margin-bottom: 30px;
-  }
-  .partners {
-    height: 50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 20px 0 40px;
-    gap: 10px;
-    background: #414246;
-  }
-  .partnersTop {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  .partnerTitle {
-    font-family: "Lato", sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 28px;
-    display: flex;
-    align-items: center;
-    color: #fff;
-  }
-  .partner {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
-    row-gap: 15px;
-    margin-top: 1.3rem;
-  }
-  .footer {
-    height: 20vh;
-    background-color: #fff;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-  }
-  .logoFooter {
-    width: 30%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .copyrightFooter {
+
+  .logoInfo {
     width: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: "Lato", sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 10px;
-    line-height: 13px;
-    color: #3B3E45;
   }
-  .hide {
+
+  .logoImg {
+    width: 50%;
+    padding: 10px 20px;
+  }
+
+  .previousConcert {
+    height: 57vh;
+  }
+
+  .prevImages {
+    flex-direction: row;
+  }
+
+  .prevConcertTitle {
+    font-size: 30px;
+  }
+
+  .prevConcertDesc {
+    font-size: 16px;
+    margin: 30px 0;
+  }
+
+  .partners {
     display: none;
   }
-  .hamburger {
-    font-size: 2rem;
-    padding-left: 25px;
-    cursor: pointer;
-  }
-  .closeBtn {
-    font-size: 2rem;
-    padding-left: 25px;
-    cursor: pointer;
-    color: var(--red);
-  }
-  .closeBtn:hover {
-    transform: scale(1.2);
-    transition: all 0.7s;
-  }
-  .hamburger:hover {
-    transform: scale(1.2);
-    transition: all 0.7s;
-  }
-  .overlay {
-    height: 100vh;
-    width: 100%;
-    position: fixed;
-    background-color: var(--black);
-  }
-  .mobileNavbar {
+
+  .footer {
+    height: 20vh;
+    background-color: var(--gray);
     display: flex;
     justify-content: space-around;
-    column-gap: 20px;
-    font-size: xx-large;
-    width: 95%;
-    position: absolute;
-    top: 70px;
-  }
-  .mobileNavbar ul li a {
-    font-family: "Lato", sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 25px;
-    line-height: 25px;
-    display: flex;
     align-items: center;
-    color: var(--red);
-    text-decoration: none;
   }
-  .mobileNavbarItems {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+
+  .copyrightFooter {
+    font-size: 15px;
   }
+}
