@@ -141,6 +141,42 @@ navbarItems.addEventListener('click', () => {
   hamburger.classList.remove('hide');
   closeBtn.classList.add('hide');
 });
+const partnersList = [
+  {
+    id: 1,
+    imgURL: './images/partner-1.svg',
+  },
+  {
+    id: 2,
+    imgURL: './images/partner-2.svg',
+  },
+  {
+    id: 3,
+    imgURL: './images/partner-3.svg',
+  },
+  {
+    id: 4,
+    imgURL: './images/partner-4.svg',
+  },
+  {
+    id: 5,
+    imgURL: './images/partner-5.svg',
+  },
+];
+const showPartners = () => {
+  const partnerSection = document.querySelector('.partners');
+  const partner = document.createElement('div');
+  partner.classList.add('partner');
+  partnerSection.appendChild(partner);
+  partnersList.map((each) => {
+    const partnerImg = document.createElement('img');
+    partnerImg.src = each.imgURL;
+    partnerImg.alt = each.altText;
+    partner.appendChild(partnerImg);
+    return true;
+  });
+};
+showPartners();
 // Define the media query string
 const mediaQuery = window.matchMedia('(min-width: 768px)');
 // Define the function to perform when the media query matches

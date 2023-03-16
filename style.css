@@ -390,6 +390,65 @@
   gap: 20px;
 }
 
+.partners {
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0 40px;
+  gap: 10px;
+  background: #414246;
+}
+
+.partnersTop {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.partnerTitle {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  color: #fff;
+}
+
+.partner {
+  width: 55%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  row-gap: 15px;
+  margin-top: 1.3rem;
+}
+
+.logoFooter {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.copyrightFooter {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 13px;
+  color: #3b3e45;
+}
+
 @media only screen and (min-width: 768px) {
   .header {
     height: 10vh;
