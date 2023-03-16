@@ -137,7 +137,8 @@ If you like this project then please give it a star and share with the person wh
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank Cindy Shin for designing the idea in Behance.
+## Acknowledgements
+Original design by Cindy Shin on [Behance](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)
 
 .
 

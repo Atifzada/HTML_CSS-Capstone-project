@@ -359,7 +359,7 @@
   height: 100vh;
   width: 100%;
   position: fixed;
-  background-color: var(--black);
+  background-color: rgba(39, 42, 49, 0.8);
 }
 
 .mobileNavbar {
