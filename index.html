@@ -1,20 +1,141 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./index.css">
+    <script src="./index.js" defer></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Clicker+Script&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Clicker+Script&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
     <link rel="apple-touch-icon" sizes="180x180" href="logo/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="logo/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="logo/favicon-16x16.png">
-<link rel="manifest" href="logo/site.webmanifest">
+    <link rel="icon" type="image/png" sizes="32x32" href="logo/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="logo/favicon-16x16.png">
+    <link rel="manifest" href="logo/site.webmanifest">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" defer
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/85b959e13e.js" defer crossorigin="anonymous"></script>
     <title>Capstone-Project</title>
 </head>
-<body>
 
+<body id="body">
+    <div class="navBannerHeader">
+        <ul class="navBanner">
+          <li><i class="fa-brands fa-facebook-f"></i></li>
+          <li><i class="fa-brands fa-twitter"></i></li>
+          <li>English</li>
+          <li>My Page</li>
+          <li>Logout</li>
+        </ul>
+      </div>
+      <header class="header">
+        <a class="logo" href="./index.html"
+          ><img src="./logo/logo-02.svg" alt="Logo"
+        /></a>
+        <nav class="desktopNavbar">
+          <ul class="navbarItems hide">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./about.html">About</a></li>
+            <li><a href="./about.html">Get a Ticket</a></li>
+            <li><a href="./about.html">Sponsors</a></li>
+            <li><a href="./about.html">Campaign</a></li>
+          </ul>
+          <i class="closeBtn hide"></i>
+          <i class="fa-sharp fa-solid fa-bars hamburger"></i>
+        </nav>
+      </header>
+    <section class="hero">
+        <div class="mainHero">
+          <!-- <div class="contain"> -->
+            <div class="contentHero">
+                <h5 class="introHero">"Hello! World of Art"</h5>
+                <h1 class="titleHero">CREATIVE COMMONS GLOBAL ART EXPO 2023</h1>
+            </div>
+            <div class="descHero">
+                <p class="desc">
+                    A joyful celebration believing in the value of openness and sharing,
+                    creating a positive change with art for the people from over 80
+                    countries is taking place in March, in Pakistan.
+                </p>
+            </div>
+            <div class="venuHero">
+                <h3 class="date">2023.03.20(MON) ~ 24(FRI)</h3>
+                <h5 class="venu">@ National Museum of Islamabad, Art Center Nabi and more
+                </h5>
+            </div>
+          <!-- </div> -->
+        </div>
+    </section>
+    <section class="middle">
+        <div class="midTitle">
+            <div class="mainProgramHeading">
+                <h4 class="categoryHeading">Main Program</h4>
+                <div class="borderBottom">
+                </div>
+            </div>
+            <div class="categories">
+                <div class="category">
+                    <img class="icon" src="./images/program_icon_01.svg" alt="Artist pic">
+                    <h5 class="categoryTitle">Lecture</h5>
+                    <p class="categoryDesc">Listen to the speakers from various countries about the messages of sharing
+                        and opening.</p>
+                </div>
+                <div class="category">
+                    <img class="icon" src="./images/program_icon_02.svg" alt="Artist pic">
+                    <h5 class="categoryTitle">CC Exhibition</h5>
+                    <p class="categoryDesc">Appreciate various creations applying CC license of artists, organized from
+                        Art Center Nabi</p>
+                </div>
+                <div class="category">
+                    <img class="icon" src="./images/program_icon_03.svg" alt="Artist pic">
+                    <h5 class="categoryTitle">Forum</h5>
+                    <p class="categoryDesc">Have the time to share your thoughts and opinions with experts for each
+                        topic.</p>
+                </div>
+                <div class="category">
+                    <img class="icon" src="./images/program_icon_04.svg" alt="Artist pic">
+                    <h5 class="categoryTitle">Workshop</h5>
+                    <p class="categoryDesc">Try creating your own work using open source license rather than just
+                        watching at it.</p>
+                </div>
+                <div class="category">
+                    <img class="icon" src="./images/program_icon_05.svg" alt="Artist pic">
+                    <h5 class="categoryTitle">CC Ignite</h5>
+                    <p class="categoryDesc">get opportunities to network with CC affiliates around the world, also after
+                        the summit.</p>
+                </div>
+            </div>
+            <div class="joinBtn">
+                <p class="joinBtnText">Join Global Art 2023</p>
+            </div>
+            <div class="more">
+                <p class="seeMore">SEE THE WHOLE PROGRAM</p>
+            </div>
+        </div>
+    </section>
+    <section class="partners">
+      <div class="partnersTop">
+        <h4 class="partnerTitle">Sponsors</h4>
+        <div class="emptyDiv4"></div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="logoFooter">
+        <img src="./logo/logo-02.svg" alt="Logo" />
+      </div>
+      <div class="copyrightFooter">
+        2023 Creative Commons Pakistan. Some Rights Reserved.
+      </div>
+    </footer>
 </body>
+
 </html>

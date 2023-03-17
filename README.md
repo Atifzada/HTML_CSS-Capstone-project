@@ -49,7 +49,7 @@
 
 - [🚀 Live Demo](#live-demo)
  Here is the link to the live demo
- https://www.loom.com/share/0391901de4cd410cbfa77812b8e08ed4
+https://www.loom.com/share/4818e9bf34b645b6bd542a759e2538f0
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -71,7 +71,7 @@ you have to have Code editor and Github account to have the source code
 ### Setup
 
 Clone this repository to your desired folder:
-git clone https://github.com/Atifzada/Portfolio-Project
+git clone https://github.com/Atifzada/Capstone-Project-01
 
 ### Install
 
@@ -93,12 +93,8 @@ To run tests, run the following command: Not Applicable
 
 website is deployed using Github page:
 here is the link
-https://atifzada.github.io/Portfolio-Project/
+https://atifzada.github.io/Capstone-Project-01/
 
-### Link to Issues
-Below is the link to the issues
-https://github.com/Atifzada/Portfolio-Project/issues
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 👥 Authors <a name="authors"></a>
 
@@ -141,7 +137,8 @@ If you like this project then please give it a star and share with the person wh
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank Cindy Shin for designing the idea in Behance.
+## Acknowledgements
+Original design by Cindy Shin on [Behance](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)
 
 .
 
